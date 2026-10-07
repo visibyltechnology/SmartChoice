@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://ironbark-solutions.vercel.app/$1"
+      "destination": "https://smartchoice-backend-prod.vercel.app/$1"
     }
   ]
 }
