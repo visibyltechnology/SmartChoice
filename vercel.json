@@ -1,7 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    { "source": "/:path*", "destination": "https://ironbark-solutions.vercel.app/:path*" }
+  "routes": [
+    { "src": "/(.*)", "dest": "https://ironbark-solutions.vercel.app/$1" }
   ]
 }
-
